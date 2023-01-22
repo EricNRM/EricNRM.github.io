@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <head>
+        <meta charset="UTF-8">
+        <form id="survey-form" method="post" action='https://register-demo.freecodecamp.org'>
+            <hr>
+        <Title>Gaming Survey</Title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    
+<body>
+  <h1 class="title" id="title">Gaming Survey</h1>
+    <p class="description" id="description">Your gaming experience</p>
+    <form id="survey-form" method="post" action='https://register-demo.freecodecamp.org'>
+    <hr>
+        
+        <label class="name" for="name">Name: <input placeholder="enter your name..." id="name" type="text" required> </label>
+        <label class="email" for="email">E-mail: <input placeholder="enter your e-mail..." id="email" type="email" required> </label>
+        <label class="age" for="number">Age (optional): <input placeholder="age..." id="number" type="number" min="5" max="120"> </label>
+        <hr>
+        <label for="select"> What was your first console?
+     <select id="select">
+          <option value="">select one</option>
+          <option value="1">PC</option>
+          <option value="2">Sony Console</option>
+          <option value="3">Ubisoft Console</option>
+          <option value="4">Nintendo Console</option>
+          <option value="5">Other</option>
+        </select>
+        </label>
+          <label>How do you feel about video games in nowadays?</label>
+            <label for="like"><input name="answer" id="like" value="01" class="inline" type="radio">I Like</label>
+                <label for="deslike"><input name="answer" value="02" id="deslike" class="inline" type="radio">I don't like</label>
+                  <label for="i don't care"><input name="answer" id="i don't care" value="01" class="inline" type="radio">I don't care</label>
+                 <hr>
+                 <p></p>What genres you like more?
+                  <label><input class="inline" value="6" type="checkbox">Adventure</label>
+                  <label><input class="inline" value="7"  type="checkbox">Horror</label>
+                  <label><input class="inline" value="8" type="checkbox">RPG</label>
+                  <label><input class="inline" value="9" type="checkbox">FPS</label>
+                  <label><input class="inline" value="10" type="checkbox">Indie</label>
+                  <label><input class="inline" value="11" type="checkbox">Others</label>
+                  
+                  
+                  <hr>
+                   <label>What was your best experience playing vídeo game? (optional)</label>
+                  <textarea name="opinion" id="opinion" rows="3" cols="30" placeholder="Comment here..."> </textarea>
+                   <input type="submit">
+ </form>
+     
+
+
+
+       <footer>
+        <h5>This was made for freeCodeCamp certification project</h5>
+        
+       </footer>
+    <div class="backgroud"></div>
+</body>
+
+
