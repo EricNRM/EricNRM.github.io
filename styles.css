@@ -9,7 +9,7 @@ body {
 }
 
 .backgroud {
-    background-image: url(./https://wallpaperaccess.com/full/4848691.jpg);
+    background-image: url(C:\Users\ericp\OneDrive\Área de Trabalho\Programação\html, SCC, Javascript\photo);
    position: absolute; 
     top: 0; 
     left: 0; 
@@ -30,7 +30,9 @@ h1, p, footer {
   .description {font-size:20;
   }
   
-footer{font-size: 13}
+footer{font-size: 13
+bottom: 2;
+}
 form {
   width: 60vw;
   max-width: 500px;
